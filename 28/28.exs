@@ -5,6 +5,8 @@ defmodule P28 do
 end
 
 IO.puts ["1: ", Kernel.inspect(P28.spiral_diag_sum(1))]
+IO.puts ["2: ", Kernel.inspect(P28.spiral_diag_sum(2))]
 IO.puts ["3: ", Kernel.inspect(P28.spiral_diag_sum(3))]
+IO.puts ["4: ", Kernel.inspect(P28.spiral_diag_sum(4))]
 IO.puts ["5: ", Kernel.inspect(P28.spiral_diag_sum(5))]
 IO.puts ["1001: ", Kernel.inspect(P28.spiral_diag_sum(1001))]
