@@ -12,9 +12,7 @@ defmodule Problem002 do
 
   defp fib_acc(limit), do: fib_rec_acc({1,1}, 0, limit)
 
-  def solve do
-    fib_acc(4000000)
-  end
+  def solve, do: fib_acc(4000000)
 end
 
 IO.puts Problem002.solve
