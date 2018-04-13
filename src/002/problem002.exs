@@ -15,4 +15,19 @@ defmodule Problem002 do
   def solve, do: fib_acc(4000000)
 end
 
+defmodule Problem002_2 do
+  defp fibonacci(1), do: 1
+  defp fibonacci(2), do: 2
+  defp fibonacci(x) when is_integer(x) and x > 0, do: fibonacci(x-1) + fibonacci(x-2)
+
+  def solve do
+    1..100
+    |> Stream.map(&fibonacci(&1))
+    |> Stream.take_while(&(&1 <= 4000000))
+    |> Stream.filter(fn(x) -> rem(x, 2) == 0 end)
+    |> Enum.sum()
+  end
+end
+
 IO.puts Problem002.solve
+IO.puts Problem002_2.solve
