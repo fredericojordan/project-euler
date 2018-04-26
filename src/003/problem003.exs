@@ -1,16 +1,11 @@
 #!/usr/bin/env elixir
 defmodule Problem003 do
-  defp factorization(number, factor, prime_factors) do
-    cond do
-      factor > number -> prime_factors
-      rem(number, factor) == 0 -> factorization(div(number,factor), factor, [factor | prime_factors])
-      true -> factorization(number, factor+1, prime_factors)
-    end
-  end
+  defp factorize(x, n, prime_factors) when n > x, do: prime_factors
+  defp factorize(x, n, prime_factors) when rem(x, n) == 0, do: factorize(div(x,n), n, [n | prime_factors])
+  defp factorize(x, n, prime_factors), do: factorize(x, n+1, prime_factors)
+  defp factorize(x) when is_integer(x) and x > 0, do: factorize(x, 2, [])
 
-  def get_prime_factors(number), do: factorization(number, 2, [])
-
-  def solve, do: Enum.max(get_prime_factors(600851475143))
+  def solve, do: factorize(600851475143) |> Enum.max()
 end
 
 IO.puts Problem003.solve
