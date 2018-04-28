@@ -15,9 +15,7 @@ defmodule Problem006 do
     |> square()
   end
 
-  def solve do
-    square_of_sum(1,100) - sum_of_squares(1,100)
-  end
+  def solve, do: square_of_sum(1,100) - sum_of_squares(1,100)
 end
 
 IO.puts Problem006.solve
