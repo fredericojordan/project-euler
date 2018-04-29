@@ -9,18 +9,15 @@ defmodule Problem004 do
   
   defp is_palindrome(x), do: x == reverse_number(x)
   
-  defp get_palindrome_multiples(x, a, b) do
-    a..b
-    |> Stream.map(&(&1 * x))
-    |> Stream.filter(&is_palindrome(&1))
-    |> Enum.to_list()
+  defp get_palindrome_multiples(a, b) do
+    for x <- a..b,
+        y <- a..b,
+        is_palindrome(x*y),
+        do: x*y
   end
 
   def solve do
-    100..999
-    |> Stream.map(&get_palindrome_multiples(&1, 100, 999))
-    |> Enum.to_list()
-    |> List.flatten()
+	get_palindrome_multiples(100, 999)
     |> Enum.max()
   end
 end
