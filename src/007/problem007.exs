@@ -1,6 +1,7 @@
 #!/usr/bin/env elixir
 defmodule Problem007 do
-  defp is_prime(x) do
+  defp is_prime(2), do: true
+  defp is_prime(x) when x > 2 do
     Enum.all?((2..round(:math.sqrt(x))), fn(n) -> rem(x, n) != 0 end)
   end
 
