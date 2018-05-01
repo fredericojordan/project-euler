@@ -8,7 +8,7 @@ defmodule Problem024 do
     { i, tail } =
       list
       |> List.pop_at(div(index, divider(list)))
-      permutate(tail, rem(index, divider(list)), [ i | acc ])
+    permutate(tail, rem(index, divider(list)), [ i | acc ])
   end
   defp permutate(list, index), do: permutate(list, index-1, [])
   
