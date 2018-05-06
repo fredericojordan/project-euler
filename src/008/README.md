@@ -32,5 +32,5 @@ Find the thirteen adjacent digits in the 1000-digit number that have the greates
 ```
 real    0m0.366s
 user    0m0.338s
-sys	    0m0.156s
+sys     0m0.156s
 ```
