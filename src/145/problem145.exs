@@ -12,8 +12,7 @@ defmodule Problem145 do
   end
 
   def solve do
-    Stream.unfold(1, fn x -> {x, x + 1} end)
-    |> Stream.take_while(&(&1 < 1_000_000_000))
+    1..1_000_000_000
     |> Stream.filter(&is_reversible(&1))
     |> Enum.count()
   end
