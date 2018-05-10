@@ -31,21 +31,57 @@ defmodule Problem011 do
         x <- 0..16,
         do:
           list
-            |> Enum.drop(x+y*20)
-            |> Enum.take(4)
-            |> IO.inspect
+          |> Enum.drop(x+y*20)
+          |> Enum.take(4)
+  end
+
+  defp generate_vertical_groupings(list) do
+    for y <- 0..16,
+        x <- 0..19,
+        do:
+          list
+          |> Enum.drop(x+y*20)
+          |> Enum.take_every(20)
+          |> Enum.take(4)
+  end
+
+  defp generate_diagonal_groupings(list) do
+    for y <- 0..16,
+        x <- 0..16,
+        do:
+          list
+          |> Enum.drop(x+y*20)
+          |> Enum.take_every(21)
+          |> Enum.take(4)
+  end
+
+  defp generate_antidiagonal_groupings(list) do
+    for y <- 0..16,
+        x <- 0..16,
+        do:
+          list
+          |> Enum.drop(3)
+          |> Enum.drop(x+y*20)
+          |> Enum.take_every(19)
+          |> Enum.take(4)
   end
 
   defp generate_groupings(list) do
-    generate_horizontal_groupings(list)
+    [
+      generate_horizontal_groupings(list),
+      generate_vertical_groupings(list),
+      generate_diagonal_groupings(list),
+      generate_antidiagonal_groupings(list)
+    ]
+    |> Enum.concat
   end
 
   def solve do
     @matrix
     |> generate_groupings()
-#    |> Enum.map(&product(&1))
-#    |> Enum.max()
+    |> Enum.map(&product(&1))
+    |> Enum.max()
   end
 end
 
-IO.inspect Problem011.solve
+IO.puts Problem011.solve
