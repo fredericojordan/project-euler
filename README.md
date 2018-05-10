@@ -15,6 +15,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/).
 - [008](src/008/)
 - [009](src/009/)
 - [010](src/010/)
+- [011](src/011/)
 - [020](src/020/)
 - [021](src/021/)
 - [024](src/024/)
