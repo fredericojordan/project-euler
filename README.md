@@ -2,7 +2,7 @@
 
 Tackling [Project Euler](https://projecteuler.net/)'s weekly problems, one by one.
 
-Also used as a playground for learning [Elixir](https://elixir-lang.org/).
+Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and maybe some other languages).
 
 ## Solved Problems:
 - [001](src/001/)
