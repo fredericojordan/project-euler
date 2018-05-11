@@ -16,6 +16,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 - [009](src/009/)
 - [010](src/010/)
 - [011](src/011/)
+- [012](src/012/)
 - [013](src/013/)
 - [016](src/016/)
 - [020](src/020/)
