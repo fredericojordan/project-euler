@@ -73,7 +73,7 @@ defmodule Problem011 do
       generate_diagonal_groupings(list),
       generate_antidiagonal_groupings(list)
     ]
-    |> Enum.concat
+    |> Enum.concat()
   end
 
   def solve do
