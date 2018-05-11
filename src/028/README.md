@@ -65,6 +65,20 @@ In the case of `f(3)`, the next smaller corner number is 7. This number differs 
 
 # Performance
 
+## Clojure
+
+[Try it online!](https://tio.run/##ZY7BCsMgEETvfsUc3ZaChtJDoV8SQgjRlhSrQUnw761KSSDdy@zsPHZ3NO69eJ0SV/ppEebJD6ZX0/Dqw/JBGzsG8NFZlTV3D0RIgtxdk52o9q5N0OBn8BOuOYlUx1vxS0luRcsSOsbH45VrqBRjv/@cWTXa7h@WQsjKzd7mtHBEKX0B)
+
+```
+Real time: 3.211 s
+User time: 4.961 s
+Sys. time: 0.443 s
+CPU share: 168.31 %
+Exit code: 0
+```
+
+## Elixir
+
 [Try it online!](https://tio.run/##dY/NDoIwEITvfYo1XigKFGKM8eDdk74BgXTVJqUlLcW@feUnJCaEw17mm52dRSm8MCHsd5mzJquFylD1gJNMOL4azZ1EeBpdS2xYcQGuCcBAwLbCVLLkonqX1jVRTo8DvEK@wYuFsw2Dp/D9oAJhS6E6fKMZpUpx8HADNm@fYh97SOAcRz7JKRzWMUlByXJCyx7nyrAuzFhOB4KKk3HI/ZG2rrN/36ZTAAnhBw)
 
 ```
