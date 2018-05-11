@@ -17,7 +17,7 @@ defmodule Problem004 do
   end
 
   def solve do
-	get_palindrome_multiples(100, 999)
+    get_palindrome_multiples(100, 999)
     |> Enum.max()
   end
 end
