@@ -22,5 +22,10 @@ What is the value of the first triangle number to have over five hundred divisor
 
 # Performance
 
+One of the longest ever! :snail: Over 2h of real time.
+
 ```
+real    123m32.131s
+user    118m31.982s
+sys     2m14.623s
 ```
