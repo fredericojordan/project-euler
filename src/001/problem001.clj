@@ -3,4 +3,4 @@
                                  (= (rem %1 5) 0)))
                     (reduce +)))
 
-(prn (solve))g
+(prn (solve))
