@@ -1,36 +1,22 @@
 #!/usr/bin/env elixir
 defmodule Problem138 do
-  defp special_isoceles_triangles_plus(n) when n > 0 do
-    for a <- 1..n,
-        b = :math.sqrt(1.25*a*a  + 2*a + 1),
-        b == trunc(b),
-        do: [trunc(b), a+1, a]
-  end
-
-  defp special_isoceles_triangles_minus(n) when n > 0 do
-    for a <- 1..n,
-        b = :math.sqrt(1.25*a*a  - 2*a + 1),
-        b == trunc(b),
-        do: [trunc(b), a, a-1]
-  end
-
-  defp special_isoceles_triangles(n) when n > 0 do
-    [
-      special_isoceles_triangles_plus(n),
-      special_isoceles_triangles_minus(n),
-    ]
-    |> Enum.concat()
+  @doc """
+  Generates a stream of special isoceles triangles in the form [L, b, h]
+  """
+  def special_isoceles_triangles() do
+    Stream.iterate(2, &(&1+1))
+    |> Stream.map(&({:math.sqrt(5*&1*&1/4  + 2*&1 + 1), :math.sqrt(5*&1*&1/4  - 2*&1 + 1), &1}))
+    |> Stream.filter(&(elem(&1, 0) == trunc(elem(&1, 0)) or elem(&1, 1) == trunc(elem(&1, 1))))
+    |> Stream.map(fn x when elem(x, 0) == trunc(elem(x, 0)) -> [trunc(elem(x, 0)), elem(x, 2), elem(x, 2)+1]
+                     x -> [trunc(elem(x, 1)), elem(x, 2), elem(x, 2)-1] end)
   end
 
   def solve do
-    special_isoceles_triangles(500_000_000)
-#    |> Enum.map(&(List.first(&1)))
-#    |> Enum.sort()
-#    |> Enum.take(12)
-#    |> Enum.sum()
-#    |> Enum.count()
+    special_isoceles_triangles()
+    |> Enum.take(12)
+    |> Enum.map(&Enum.max/1)
+    |> Enum.sum()
   end
 end
 
-IO.inspect Problem138.solve
-#IO.puts Problem138.solve
+IO.puts Problem138.solve
