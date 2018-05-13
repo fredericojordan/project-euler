@@ -11,9 +11,9 @@ What is the smallest positive number that is evenly divisible by all of the numb
 [Try it online!](https://tio.run/##jdO/asMwEMfxXU9xJWBkEmyfm79DsmUoBFroEzj4AiKSHSQ5ZMi7u45DS@nS36BBdx9NXyTW3Izv@8lL3gWfH02TS3MlGceqlpNr684Kffj2aMUVxYLqVhENGwqtvcrzSvQZvVQuM1F8FUWXM0p0wtMyTcf1ffctTsYORide3ABmVKa03VLxH3vF2BxjC4wtMbbC2BpjG4xxAToGHRiCwRIMpmCwBYMxGKzBYA4Ge5R/e@ybzmWxOovmn9nBhDi89CHqx0yaWj2OenvPLl0Mv75ZNv4u1fdf)
 
 ```
-Real time: 1.466 s
-User time: 1.328 s
-Sys. time: 0.146 s
-CPU share: 100.49 %
+Real time: 31.264 s
+User time: 30.717 s
+Sys. time: 0.290 s
+CPU share: 99.18 %
 Exit code: 0
 ```
