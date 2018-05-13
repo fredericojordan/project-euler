@@ -1,3 +1,5 @@
+![Fred Profile](https://projecteuler.net/profile/fredericojordan.png)
+
 # 🔮 project-euler
 
 Tackling [Project Euler](https://projecteuler.net/)'s weekly problems, one by one.
