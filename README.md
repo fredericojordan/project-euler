@@ -11,18 +11,19 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | Number          | Title                                                    | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
 | [001](src/001/) | Multiples of 3 and 5                                     | 5%         | 0.738 s            |
-| [002](src/002/) |	Even Fibonacci numbers                                   | 5%         | 0.414 s            |
+| [002](src/002/) | Even Fibonacci numbers                                   | 5%         | 0.414 s            |
 | [003](src/003/) | Largest prime factor                                     | 5%         | 0.421 s            |
 | [004](src/004/) | Largest palindrome product                               | 5%         | 1.466 s            |
 | [005](src/005/) | Smallest multiple                                        | 5%         | 28.421 s           |
-| [006](src/006/) |	Sum square difference                                    | 5%         | 0.431 s            |
-| [007](src/007/) |	10001st prime                                            | 5%         | 0.973 s            |
-| [008](src/008/) |	Largest product in a series                              | 5%         | 0.366 s            |
+| [006](src/006/) | Sum square difference                                    | 5%         | 0.431 s            |
+| [007](src/007/) | 10001st prime                                            | 5%         | 0.973 s            |
+| [008](src/008/) | Largest product in a series                              | 5%         | 0.366 s            |
 | [009](src/009/) | Special Pythagorean triplet                              | 5%         | 0.532 s            |
-| [010](src/010/) |	Summation of primes                                      | 5%         | 22.129 s           |
+| [010](src/010/) | Summation of primes                                      | 5%         | 22.129 s           |
 | [011](src/011/) | Largest product in a grid                                | 5%         | 0.778 s            |
-| [012](src/012/) |	Highly divisible triangular number                       | 5%         | 2 h 3 m 32.131 s   |
-| [013](src/013/) |	Large sum                                                | 5%         | 0.392 s            |
+| [012](src/012/) | Highly divisible triangular number                       | 5%         | 2 h 3 m 32.131 s   |
+| [013](src/013/) | Large sum                                                | 5%         | 0.392 s            |
+| [014](src/014/) | Longest Collatz sequence                                 | 5%         | 8.741 s            |
 | [016](src/016/) | Power digit sum                                          | 5%         | 0.438 s            |
 | [020](src/020/) | Factorial digit sum                                      | 5%         | 0.393 s            |
 | [021](src/021/) | Amicable numbers                                         | 5%         | 2.855 s            |
