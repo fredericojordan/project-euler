@@ -27,6 +27,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | [016](src/016/) | Power digit sum                                          | 5%         | 0.438 s            |
 | [020](src/020/) | Factorial digit sum                                      | 5%         | 0.393 s            |
 | [021](src/021/) | Amicable numbers                                         | 5%         | 2.855 s            |
+| [022](src/022/) | Names scores                                             | 5%         | 0.391 s            |
 | [024](src/024/) | Lexicographic permutations                               | 5%         | 0.498 s            |
 | [028](src/028/) | Number spiral diagonals                                  | 5%         | 0.375 s            |
 | [035](src/035/) | Circular primes                                          | 5%         | 11.197 s           |
