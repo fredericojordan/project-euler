@@ -31,6 +31,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | [021](src/021/) | Amicable numbers                                         | 5%         | 2.855 s            |
 | [022](src/022/) | Names scores                                             | 5%         | 0.391 s            |
 | [024](src/024/) | Lexicographic permutations                               | 5%         | 0.498 s            |
+| [025](src/025/) | 1000-digit Fibonacci number                              | 5%         | 4.450 s           |
 | [028](src/028/) | Number spiral diagonals                                  | 5%         | 0.375 s            |
 | [035](src/035/) | Circular primes                                          | 5%         | 11.197 s           |
 | [145](src/145/) | How many reversible numbers are there below one-billion? | 20%        | 30 m 32.579 s      |
