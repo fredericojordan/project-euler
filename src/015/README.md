@@ -28,7 +28,7 @@ But we must take into account that any right move is chosen from a pool of `n` i
 
 The total possible ways of rearranging `n` right moves is `n!`. So we just divide the total number of permutations calculated earlier by this factor (twice to account for both the right and down moves), bringing us to our final form:
 
-    f(x) = (2n)!/(n!)
+    f(x) = (2n)!/(n!)^2
     
 Or, in Elixir:
 
