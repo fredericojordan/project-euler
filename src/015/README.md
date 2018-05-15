@@ -26,7 +26,7 @@ The total permutations of `2n` moves is `(2n)!` where `!` is the factorial opera
 
 But we must take into account that any right move is chosen from a pool of `n` identical right moves, and if any two right moves swap places, the path is the same. The same thing is true for the down moves.
 
-The total possible ways of rearanging `n` right moves is `n!`. So we just divide the total number of permutations calculated earlier by this factor (twice to account for both the right and down moves), bringing us to our final form:
+The total possible ways of rearranging `n` right moves is `n!`. So we just divide the total number of permutations calculated earlier by this factor (twice to account for both the right and down moves), bringing us to our final form:
 
     f(x) = (2n)!/(n!)
     
