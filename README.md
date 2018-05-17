@@ -34,4 +34,5 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | [025](src/025/) | 1000-digit Fibonacci number                              | 5%         | 4.450 s            |
 | [028](src/028/) | Number spiral diagonals                                  | 5%         | 0.375 s            |
 | [035](src/035/) | Circular primes                                          | 5%         | 11.197 s           |
+| [097](src/097/) | Large non-Mersenne prime                                 | 5%         | 0.480 s            |
 | [145](src/145/) | How many reversible numbers are there below one-billion? | 20%        | 30 m 32.579 s      |
