@@ -10,6 +10,20 @@ defmodule Problem138 do
   Find ∑ L for the twelve smallest isosceles triangles for which h = b ± 1 and b, L are positive integers.
   """
 
+  def first_test([l, b, h]) do
+    [l, b/2, h]
+    |> Enum.map(fn x -> x*x end)
+    |> Enum.all?(fn x -> trunc(x) == x end)
+  end
+
+  def second_test([l, b, h]) do
+    IO.inspect([l, b, h])
+    [2*l, b, 2*h]
+    |> Enum.map(fn x -> trunc(x) end)
+    |> Enum.map(fn x -> x*x end)
+    |> (fn [a, b, c] -> a-b-c == 0 end).()
+  end
+
   @doc """
   Generates a stream of special isoceles triangles in the form [L, b, h]
 
@@ -26,12 +40,14 @@ defmodule Problem138 do
                        elem(&1, 1) == trunc(elem(&1, 1))))
     |> Stream.map(fn x when elem(x, 0) == trunc(elem(x, 0)) -> [trunc(elem(x, 0)), elem(x, 2), elem(x, 2)+1]
                      x when elem(x, 1) == trunc(elem(x, 1)) -> [trunc(elem(x, 1)), elem(x, 2), elem(x, 2)-1] end)
+    |> Stream.filter(&first_test(&1))
+    |> Stream.filter(&second_test(&1))
   end
 
   def solve do
     special_isoceles_triangles()
     |> Enum.take(12)
-#    |> IO.inspect()
+    |> IO.inspect()
     |> Enum.map(&Enum.max/1)
     |> Enum.sum()
   end
