@@ -1,6 +1,6 @@
-# Problem Description
+# Sum square difference
 
-https://projecteuler.net/problem=6
+## [Problem Description](https://projecteuler.net/problem=6)
 
 The sum of the squares of the first ten natural numbers is,
 
@@ -12,7 +12,7 @@ Hence the difference between the sum of the squares of the first ten natural num
 
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
-# Performance
+## Performance
 
 [Try it online!](https://tio.run/##dZCxCoMwFEX3fMUrBTHFRl06dOjWoVML/QCJ@ATBJDYx4tB/tzFq0UIzhXtezuUF66qv9DDsd7E1Os4rGaPsAH1MCiyFKmyN8NAqr1EkyQkKRQiAQw2Yl@Uaw55GLj1Df@gd@UIrMlVm04wJeQQ5HR@DO5yx3F/eF3i2GrlggjdhMAuDlNIFX6UVzLnCMUFZrBv8tC9x/G/BxuCTuWYxTj4wqu5w2mRrTqM0SSgcf1eacuIVtztrbGtWH8W8jwzDBw)
 

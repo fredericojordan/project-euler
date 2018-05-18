@@ -1,6 +1,6 @@
-# Problem Description
+# Number spiral diagonals
 
-https://projecteuler.net/problem=28
+## [Problem Description](https://projecteuler.net/problem=28)
 
 Starting with the number 1 and moving to the right in a clockwise direction a 5 by 5 spiral is formed as follows:
 
@@ -14,7 +14,7 @@ It can be verified that the sum of the numbers on the diagonals is 101.
 
 What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed in the same way?
 
-# Rationale
+## Rationale
 
 With the intention of making a recursive function, we must define both a stopping condition and a rule to recursively call the function.
 
@@ -63,9 +63,9 @@ In the case of `f(3)`, the next smaller corner number is 7. This number differs 
 
 `f(n) = f(n-2) + 4*n*n - 6*(n-1)`
 
-# Performance
+## Performance
 
-## Clojure
+### Clojure
 
 [Try it online!](https://tio.run/##ZY7BCsMgEETvfsUc3ZaChtJDoV8SQgjRlhSrQUnw761KSSDdy@zsPHZ3NO69eJ0SV/ppEebJD6ZX0/Dqw/JBGzsG8NFZlTV3D0RIgtxdk52o9q5N0OBn8BOuOYlUx1vxS0luRcsSOsbH45VrqBRjv/@cWTXa7h@WQsjKzd7mtHBEKX0B)
 
@@ -77,7 +77,7 @@ CPU share: 168.31 %
 Exit code: 0
 ```
 
-## Elixir
+### Elixir
 
 [Try it online!](https://tio.run/##dY/NDoIwEITvfYo1XigKFGKM8eDdk74BgXTVJqUlLcW@feUnJCaEw17mm52dRSm8MCHsd5mzJquFylD1gJNMOL4azZ1EeBpdS2xYcQGuCcBAwLbCVLLkonqX1jVRTo8DvEK@wYuFsw2Dp/D9oAJhS6E6fKMZpUpx8HADNm@fYh97SOAcRz7JKRzWMUlByXJCyx7nyrAuzFhOB4KKk3HI/ZG2rrN/36ZTAAnhBw)
 

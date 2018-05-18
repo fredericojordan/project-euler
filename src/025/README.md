@@ -1,6 +1,6 @@
-# Problem Description
+# 1000-digit Fibonacci number
 
-https://projecteuler.net/problem=25
+## [Problem Description](https://projecteuler.net/problem=25)
 
 The Fibonacci sequence is defined by the recurrence relation:
 
@@ -25,7 +25,7 @@ The 12th term, F<sub>12</sub>, is the first term to contain three digits.
 
 What is the index of the first term in the Fibonacci sequence to contain 1000 digits?
 
-# Performance
+## Performance
 
 [Try it online!](https://tio.run/##bVBNS8NAEL3vrxgRyi7GTSJ4EenNQ0FQ8BhC2GQn7eJmN@5HW1B/e9ymqKX0MPCYN7yPQa32yk3T9VUevctbZXI0W8B5TST2g5VRI7w622ocirt7kJYAJGaEXrXWiK5TjcePiKZDyrLEP8BbcCgGHk1vtaRVmUFRZ9AbqEQGbQ23S/hMqBI3bQai/gY0kpGjLnirt3i0gYseM/G1/HXZqbBplJG4p@U5J50dm91GaaQL@mTiwDsbTaArE3CNjku1VsFTTN3o4hCTMQaPUDZFkeCZ2CDGpPJ3W7L/i1k6iHc8ifCsfOC9cj7MkVNFchiyeuFjDP7kp3yuTKbpBw)
 
