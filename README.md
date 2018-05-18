@@ -35,6 +35,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | [028](src/028/) | Number spiral diagonals                                  | 5%         | 0.375 s            |
 | [034](src/034/) | Digit factorials                                         | 5%         | 0.466 s            |
 | [035](src/035/) | Circular primes                                          | 5%         | 11.197 s           |
+| [048](src/048/) | Self powers                                              | 5%         | 0.532 s            |
 | [055](src/055/) | Lychrel numbers                                          | 5%         | 0.630 s            |
 | [089](src/089/) | Roman numerals                                           | 20%        | 0.508 s            |
 | [097](src/097/) | Large non-Mersenne prime                                 | 5%         | 0.480 s            |
