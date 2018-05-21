@@ -27,6 +27,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | [015](src/015/) | Lattice paths                                            | 5%         | 0.756 s            |
 | [016](src/016/) | Power digit sum                                          | 5%         | 0.438 s            |
 | [018](src/018/) | Maximum path sum I                                       | 5%         | 0.566 s            |
+| [019](src/019/) | Counting Sundays                                         | 5%         | 0.530 s            |
 | [020](src/020/) | Factorial digit sum                                      | 5%         | 0.393 s            |
 | [021](src/021/) | Amicable numbers                                         | 5%         | 2.855 s            |
 | [022](src/022/) | Names scores                                             | 5%         | 0.391 s            |
