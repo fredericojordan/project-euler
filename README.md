@@ -34,6 +34,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | [024](src/024/) | Lexicographic permutations                               | 5%         | 0.498 s            |
 | [025](src/025/) | 1000-digit Fibonacci number                              | 5%         | 4.450 s            |
 | [028](src/028/) | Number spiral diagonals                                  | 5%         | 0.375 s            |
+| [029](src/029/) | Distinct powers                                          | 5%         | 0.394 s            |
 | [034](src/034/) | Digit factorials                                         | 5%         | 0.466 s            |
 | [035](src/035/) | Circular primes                                          | 5%         | 11.197 s           |
 | [048](src/048/) | Self powers                                              | 5%         | 0.532 s            |
