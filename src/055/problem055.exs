@@ -1,5 +1,5 @@
 #!/usr/bin/env elixir
-defmodule Problem023 do
+defmodule Problem055 do
   @moduledoc """
   If we take 47, reverse and add, 47 + 74 = 121, which is palindromic.
 
@@ -44,4 +44,4 @@ defmodule Problem023 do
   end
 end
 
-IO.puts Problem023.solve
+IO.puts Problem055.solve
