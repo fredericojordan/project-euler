@@ -32,6 +32,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | [020](src/020/) | Factorial digit sum                                      | 5%         | 0.393 s            |
 | [021](src/021/) | Amicable numbers                                         | 5%         | 2.855 s            |
 | [022](src/022/) | Names scores                                             | 5%         | 0.391 s            |
+| [023](src/023/) | Non-abundant sums                                        | 5%         | 2 m 51.632 s       |
 | [024](src/024/) | Lexicographic permutations                               | 5%         | 0.498 s            |
 | [025](src/025/) | 1000-digit Fibonacci number                              | 5%         | 4.450 s            |
 | [028](src/028/) | Number spiral diagonals                                  | 5%         | 0.375 s            |
