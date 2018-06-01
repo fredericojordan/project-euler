@@ -35,6 +35,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | [023](src/023/) | Non-abundant sums                                        | 5%         | 2 m 51.632 s       |
 | [024](src/024/) | Lexicographic permutations                               | 5%         | 0.498 s            |
 | [025](src/025/) | 1000-digit Fibonacci number                              | 5%         | 4.450 s            |
+| [026](src/026/) | Reciprocal cycles                                        | 5%         | 3 h 42 m 56.979 s  |
 | [028](src/028/) | Number spiral diagonals                                  | 5%         | 0.375 s            |
 | [029](src/029/) | Distinct powers                                          | 5%         | 0.394 s            |
 | [030](src/030/) | Digit fifth powers                                       | 5%         | 0.758 s            |
