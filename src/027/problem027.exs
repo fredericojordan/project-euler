@@ -11,7 +11,7 @@ defmodule Problem027 do
   
   Considering quadratics of the form:
   
-  - n^2+an+b, where |a|<1000 and |b|≤1000
+  - n^2 + an + b, where |a| < 1000 and |b| ≤ 1000
   
       where |n| is the modulus/absolute value of n
       e.g. |11| = 11 and |−4| = 4
@@ -28,7 +28,7 @@ defmodule Problem027 do
   end
 
   def generate_coefficients() do
-    for a <- -1000..1000,
+    for a <- -999..999,
         b <- -1000..1000 do
       [a, b]
     end
@@ -36,7 +36,7 @@ defmodule Problem027 do
 
   def prime_generation_length([a, b]) do
     Stream.iterate(0, &(&1+1))
-    |> Stream.map(&(&1*&1 + &1*b + a))
+    |> Stream.map(&(&1*&1 + &1*a + b))
     |> Stream.take_while(&is_prime/1)
     |> Enum.count()
   end

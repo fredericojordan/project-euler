@@ -12,16 +12,16 @@ The incredible formula n<sup>2</sup> − 79n + 1601 was discovered, which produc
 
 Considering quadratics of the form:
 
-- n<sup>2</sup>+an+b, where |a|<1000 and |b|≤1000
+- n<sup>2</sup> + an + b, where |a| < 1000 and |b| ≤ 1000
 
-    where |n| is the modulus/absolute value of n
-    e.g. |11| = 11 and |−4| = 4
+    Where |n| is the modulus/absolute value of n
+    (e.g. |11| = 11 and |−4| = 4)
 
 Find the product of the coefficients, a and b, for the quadratic expression that produces the maximum number of primes for consecutive values of n, starting with n=0.
 
 ## Performance
 
-[Try it online!](https://tio.run/##fVXdbtMwFL7vUxyGVCVrmialWtm0DSQEYuICJLhDUDnJaWMtcTrbaTspDwC3PANPthcpx3bSdR3btDS1z8/3ne8cu1jwDZfb7csXo1rJUcLFCMUK0G73MpyXVVYXCF9klRRYRuMpZFUP4K3bz6oUjo6OaOM9rSRkXKXVCiVmoHMEiSWT14wi4aZmmWSapzCvZFkX7KxHUUMQP8cwAEHPJKYN@r/SoGspFFQ1fcuZtqnaKFjzooClJPQUYRLRV16iMmbrllZCYVprvkLgQuOCSK1YUZNLBHe//xKS@Xx1GsLHao1ENYB1joL2LyhdQI8lRJkNI7vpTaJB7Ls1V1TjiituakpuaSsAJjJIUWrGRXG7l41Mk9hli3fRaYFMkttBltDV/i03tFPSz5q6oo1Id7/@wPTUCBWfRDGsmdpT2xTB07wTRsHrZ5XpFCEpBD1TUsMgu2gN1byNwPmcpxyFVoHBn57aWg1@YGqhrXh8MqFwx/4dQfAMJReL@36rLp0p5sw52rYPmBgkVn2J0LDmPI6iyAI0SUOszNK5m7/WTTQG2KSzA1irEUtUVdS6LcqAiTYEw0UITRw31Iw4dpmJ8sSsJy7zBy7cpD5bOrOxxLXT8n6YcbOUqBSvhBvVXQMsRbbhZV2CqMuE5pBy7/XkP/0w3ANQmkltJFxznYO4iIy67pDReVxS/TObxtv4btg25zS3WXV2bxlu/Efeke@c5qxQ@MgaP2sdt1Yta3yaBlzC2N0OdB1QzSErijeeNw5DWdUi885KpvNQ3UhNMT6lnAtP@DC8NPeEtwmAFi8u6JyiyAx/evUcGixQIAmOs/3GeH6HZvRkcD6EoRmaMDSfQTsFAMmBpYsC@M4CSH7YhQF7AGmLm7XA1N9ZgWKhc8/F7KC/aomsDLm2/DzqRN/rx3Rf@NbcXHYeJVt6xnTcN5cBvRN6sUduml3jjA5zgV6/k3gU77ysrinJqb0DiegU0CS1rJ7Q60EWms5Zcuv1nyj0EJRuGRpsr/8JpcAiPB6NOwKWxNXncFlrtfdDEVpGve32Hw)
+[Try it online!](https://tio.run/##fVXdbtMwFL7fUxyGVCVb6ial2ui0DSQEYuICJLhDUDnJaWvNcTrbaTspDwC3PANPthcpx07SdR1b1fz4/H7nO8cOSrEWerN5@WJQGT1IhRqgWgJ68UGO06LMK4nwRZepxCIenkJeHgC8beR5mcHh4SEJ3tNKQy5MVi5RYw52jqCx4PqakyfcVDzX3IoMpqUuKsnPyIn@fVA/h3AMiq5R0siuLNhKKwNlRW9zbn2w1g9WQkpYaMqfIYxiehUFGqf2ZlmpDGaVFUsEoSzOCNaSy4pMYrj7/ZcyufurMYOP5QoJbASrOSqSX1C4iC4PiCI7RF4YjOLjJGzWwlCVS2GEqyq9JVEEXOWQobZcKHm7E41Uo6SJlmy9M4lck9leFNbU/m3uYGfEoFd1RTuS7n79gdOxIyo5iRNYcbPDtytCZPOOGAOvn2WmY4SoUHSdEhsuc@NtoZy2HjidikygsiZy@U/HvlaXP3K1kCgZnozIvUH/jlKIHLVQs/uOmy6cK2av7dyVk/oOaISa13AOSRzHPk2d1r5XTtC4uV9rqmoHwIX1o1iZAU9NKSvbFueSqtYF2YxBnSQ1NSVJmtgEfeTWoybyB6GamX2WAu59CW/H6f1Y43qh0RhRqmZkt43wEPlaFFUBqipSmkeKvdOb//TFYY/AWK6to3Il7BzURexYdtuNHrQ1F0TAxMcJ1mEzdetzGuC8PLvX9NfhI@s4bIymXBp8pE2e1Q5brdUVPg0DLmHYHBR0MlDRjEv5JgiGjOmyUnlwVnA7Z@ZGW/IJKeRUBSqE/qU7MoJ1BLR4cUEbFlXu8NOjLRpmqJAYx8luZ4Kwy@YI5XDeh/54PGaMblE7BACpl7tpYswPWesD8J1HkP7wC5fqQUJf2qRNS@2dSFQzOw8an23ir1YjL5iwHl1AfegFvYSOjdCr68vOouCLwKmOeu5MoCd3W@CRmeXXOKE9LTHodQQPkq2VZzUjMm2wRxBtAhqkFtUTbD2IQsM5SW@D3hOF7ielw4bmOuh9Qq1QsqPBsAPgQVx9ZovKmp0vBvOIDjabfw)
 
 ```
 Real time: 55.706 s
