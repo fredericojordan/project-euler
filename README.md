@@ -40,6 +40,7 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 | [028](src/028/) | Number spiral diagonals                                  | 5%         | 0.375 s            |
 | [029](src/029/) | Distinct powers                                          | 5%         | 0.394 s            |
 | [030](src/030/) | Digit fifth powers                                       | 5%         | 0.758 s            |
+| [031](src/031/) | Coin sums                                                | 5%         | 10 m 23.920 s      |
 | [034](src/034/) | Digit factorials                                         | 5%         | 0.466 s            |
 | [035](src/035/) | Circular primes                                          | 5%         | 11.197 s           |
 | [048](src/048/) | Self powers                                              | 5%         | 0.532 s            |
