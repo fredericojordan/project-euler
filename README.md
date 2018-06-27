@@ -6,6 +6,8 @@ Tackling [Project Euler](https://projecteuler.net/)'s weekly problems, one by on
 
 Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and maybe some other languages).
 
+Add me to your friend list with the following key: `1303129_5SgMVy96F4dFfIXvahxjTAPc4J70lbr1`
+
 ## Solved Problems:
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
