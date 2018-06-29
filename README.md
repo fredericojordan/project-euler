@@ -43,6 +43,7 @@ Add me to your friend list with the following key: `1303129_5SgMVy96F4dFfIXvahxj
 | [029](src/029/) | Distinct powers                                          | 5%         | 0.394 s            |
 | [030](src/030/) | Digit fifth powers                                       | 5%         | 0.758 s            |
 | [031](src/031/) | Coin sums                                                | 5%         | 10 m 23.920 s      |
+| [032](src/032/) | Pandigital products                                      | 5%         | 21.188 s           |
 | [033](src/033/) | Digit cancelling fractions                               | 5%         | 0.776 s            |
 | [034](src/034/) | Digit factorials                                         | 5%         | 0.466 s            |
 | [035](src/035/) | Circular primes                                          | 5%         | 11.197 s           |
