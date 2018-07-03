@@ -7,6 +7,7 @@ defmodule Problem039 do
 
   For which value of p ≤ 1000, is the number of solutions maximised?
   """
+
   defp pythagorean(n) when n > 0 do
     for a <- 1..n,
         b <- a+1..n,
