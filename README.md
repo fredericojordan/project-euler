@@ -53,6 +53,7 @@ Add me to your friend list with the following key: `1303129_5SgMVy96F4dFfIXvahxj
 | [039](src/039/) | Integer right triangles                                  | 5%         | 21.257 s           |
 | [040](src/040/) | Champernowne's constant                                  | 5%         | 0.978 s            |
 | [041](src/041/) | Pandigital primes                                        | 5%         | 0.714 s            |
+| [042](src/042/) | Coded triangle numbers                                   | 5%         | 0.379 s            |
 | [048](src/048/) | Self powers                                              | 5%         | 0.532 s            |
 | [055](src/055/) | Lychrel numbers                                          | 5%         | 0.630 s            |
 | [089](src/089/) | Roman numerals                                           | 20%        | 0.508 s            |
