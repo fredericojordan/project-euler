@@ -12,7 +12,12 @@ Find the pair of pentagonal numbers, P<sub>j</sub> and P<sub>k</sub>, for which 
 
 ## Performance
 
-[Try it online!]()
+[Try it online!](https://tio.run/##fVTBbtpAEL3zFdNUipZgjA2kJGlIekiqRq1UpPaGLLTgcdhmvabrNTEqvffcT@yP0FmDXRdBLNm7npl98@bN2ChFLvRm8/pVJ0t1ZypUB9USsDA3QoziJMwkwkgnU4mx1@9DmDQA3m3tYTKDk5MTMoxQGf6YKC5BZfEUdQpcIzyiQs0NhjBdgZkjRImOM8kdGI1VMFSsp/78@u03O10Xvlq30KkBgwoWBwGvGpTLXr4D5w74XQe6dPdof06mgefAJb37/oAefbK6rmuPPBiYcQVThBQJ3My5IQb9AFq0DAIYEgztBx7tLrv0GI0vAhc@JM@4RO1Y6kJDKKIINaoZ2lRAzO2xIfQvHBApqMTUaBd53wsVFnUvOJ1PogNlWSm@BcApcDR@ChwrETzPxWy@y5pmceH9l72QtoZkvXfEY20BCloWcm05xUKJWKQYviVMKppMls6Sywwtn7tbYmlbSAu1e1GDnZS6Fx0H@GI08tjNVJTIkJHakYIc2jfww@hMzVh@xnpneds2s@lA3vJ/AqqwSWdpeQGfSWJommWaAwHNwrG@KSkY/oQTkkgiO2WnPlwPYYuxn0wog4@obxkhEacwubKqw3AIW8rWfIDZNp4Eo1Gx8YTvbU9HXKZ49MCuAtqXhD@iVijdM9btN/dsLeZXpquYm7mbfteGvRS2M3XYm8pUVbhfevnlTWp62iHcl9tOWw7X7eONcXafHMDqSFxei6mLkrdWxzztuoeUrfYA49yBVfBfOZAmcokl5eOl@d7E84q7EuieSLoxXzCaVino50ID@4lW106xZtbk2O6e7sRt0/SWc1sDEKpSuKD18NldZCat/RjdgmNjs/kL)
 
 ```
+Real time: 1.798 s
+User time: 1.670 s
+Sys. time: 0.142 s
+CPU share: 100.78 %
+Exit code: 0
 ```

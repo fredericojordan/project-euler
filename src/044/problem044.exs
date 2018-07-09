@@ -28,22 +28,22 @@ defmodule Problem044 do
     |> Kernel.+(1)
     |> :math.sqrt()
     |> Kernel.+(1)
-    |> Kernel./(2)
+    |> Kernel./(6)
     |> integer?()
   end
 
-  defp generate_pentagonal_pair_differences do
-    for x <- pentagonal_numbers(1_000_000_000),
-        y <- pentagonal_numbers(1_000_000_000),
+  defp generate_pentagonal_pairs(limit) do
+    for x <- pentagonal_numbers(limit),
+        y <- pentagonal_numbers(x),
         pentagonal?(x+y),
         pentagonal?(x-y),
         do:
-          x-y
+          [x, y]
   end
 
   def solve do
-    generate_pentagonal_pair_differences()
-    |> IO.inspect()
+    generate_pentagonal_pairs(10_000_000)
+    |> Enum.map(fn list -> List.foldr(list, 0, &Kernel.-/2) end)
     |> Enum.min()
   end
 end
