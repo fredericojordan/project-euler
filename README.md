@@ -23,7 +23,7 @@ Add me to your friend list with the following key: `1303129_5SgMVy96F4dFfIXvahxj
 | [009](src/009/) | Special Pythagorean triplet                              | 5%         | 0.532 s            |
 | [010](src/010/) | Summation of primes                                      | 5%         | 22.129 s           |
 | [011](src/011/) | Largest product in a grid                                | 5%         | 0.778 s            |
-| [012](src/012/) | Highly divisible triangular number                       | 5%         | 2 h 3 m 32.131 s   |
+| [012](src/012/) | Highly divisible triangular number                       | 5%         | 1.144 s            |
 | [013](src/013/) | Large sum                                                | 5%         | 0.392 s            |
 | [014](src/014/) | Longest Collatz sequence                                 | 5%         | 8.741 s            |
 | [015](src/015/) | Lattice paths                                            | 5%         | 0.756 s            |

@@ -22,10 +22,12 @@ What is the value of the first triangle number to have over five hundred divisor
 
 ## Performance
 
-One of the longest ever! :snail: Over 2h of real time.
+[Try it online!](https://tio.run/##lVRdb9MwFH3vr7gMUSU0S5P0Y9W0Fl54QAyBNKQ9TFXlJretRWIHx@4K2357uXbabsuKgIer2Mf3nnOuP4I533C13b5@1TWV6s656KJYAzq4leGikJnJEb4qOc@xiOIEMtkCeF/jmUzh5OSEgG8rhAp/GBQpglyAVpyJJVUKU8xRVcArWKJAxTRmMP8JLMu4WIKmOsG0USzfp4ZwJR1@dlGZcqJXF137bVLCrTQ5USHE0IGEokfRpxhQDCnOYAzJKHTeFlxVGjQKClVUh@LzFpkHiAPoBTAMII4oBgEkhCQjQgnr03xAEYahzb5EDaaCnFtCS81SLalD2/VBqcK11WrsglM7hfgcYjfo0SDoueHQDpOgFwzrlKieD4I4qoGBy7XAwAFJXANnQVKTJaO6pE9Q3A@SkRW7RkiZIDtI5pimJHsSjz6bm6olrNiajnBNkwWnUcbXvKL@XO/XlmNHsGa5wedd/51tZUSm6AbsWd8Rqb1B9KHbVu42k/9CbxOACKBUvMDZbot9uF3RrgqYAK1m8vz58v9wKCzcqg/jMUQ12WMduaNV4bvyGwH3zzmm/r9JNWltTiduZh3h2pnk1YwLjUtUFmIigw21Hh2hTcgmuaqpDscw2107z69fLcCVVsiK0IiFzDPvhrxE0wAWgpoMgKXpFE4ncEeDjmvcmnWT6QOgyKxV@uxlUmmEnsk0Nco@@8qzT@IgZSducD@BD2QkpGM3KXpv7h6c4sZRW73PrAxNmdGfwSMksCuk2/ba9mHHvv9H6f0l8sRB9XFXhL9Xf@HzsGKV3TV@gjmvBSs9a6BD8seaaH9CJTAP33aThrNK5vbR1G5eHsSebHcQmZLl7HbFc3RycDGGJ4rHkhqdt2PfFg2iqGFUs@/oxQfskk4jdI/U2xt2pj9@CUujqyc/@NB10NpufwM)
 
 ```
-real    123m32.131s
-user    118m31.982s
-sys     2m14.623s
+Real time: 1.144 s
+User time: 1.056 s
+Sys. time: 0.123 s
+CPU share: 103.10 %
+Exit code: 0
 ```
