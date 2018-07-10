@@ -1,4 +1,4 @@
-# Pentagon numbers 
+# Pentagon numbers
 
 ## [Problem Description](https://projecteuler.net/problem=44)
 
