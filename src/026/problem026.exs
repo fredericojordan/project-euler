@@ -18,45 +18,28 @@ defmodule Problem026 do
   Find the value of d < 1000 for which 1/d contains the longest recurring cycle in its decimal fraction part.
   """
 
-  @repetitions 5
-
-  defp generate_decimals(denom) do
-    Stream.unfold([denom, 1, []], fn [d, n, l] -> {[div(n, d) | l], [d, 10*rem(n, d), [div(n, d) | l]]} end)
+  defp generate_remainders(denom) do
+    Stream.unfold([denom, 1, []], fn [d, n, l] -> {[rem(n, d) | l], [d, 10*rem(n, d), [rem(n, d) | l]]} end)
   end
 
-  defp is_cycle(l, n) do
-    l
-    |> Stream.take(@repetitions*n)
-    |> Stream.chunk_every(n)
+  defp no_duplicates?(list) do
+    list
     |> Enum.uniq()
     |> Enum.count()
-    |> Kernel.==(1)
+    |> Kernel.==(Enum.count(list))
   end
 
-  defp is_cycle(l) do
-    1..div(Enum.count(l), @repetitions)
-    |> Enum.any?(&(is_cycle(l, &1)))
-  end
-
-  defp get_cycle_length(l) do
-    1..div(Enum.count(l), @repetitions)
-    |> Stream.filter(&(is_cycle(l, &1)))
+  def get_cycle_length(num) do
+    generate_remainders(num)
+    |> Stream.drop_while(&no_duplicates?/1)
     |> Enum.take(1)
     |> List.first()
-  end
-
-  defp recurring_cycle_length(x) do
-    generate_decimals(x)
-    |> Stream.drop(@repetitions)
-    |> Stream.drop_while(&(!is_cycle(&1)))
-    |> Enum.take(1)
-    |> List.first()
-    |> get_cycle_length()
+    |> Enum.count()
   end
 
   def solve do
     1..1_000
-    |> Enum.max_by(&recurring_cycle_length/1)
+    |> Enum.max_by(&get_cycle_length/1)
   end
 end
 

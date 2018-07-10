@@ -20,8 +20,12 @@ Find the value of d < 1000 for which 1/d contains the longest recurring cycle in
 
 ## Performance
 
+[Try it online!](https://tio.run/##dVRdb9MwFH3vr7gMaUpR6jbd1g1EBzyANIEEEkg8VFXkxjeNhWMX2@k2MX57uXbadAGWl@Tcj3PP/VBQyTtpd7vnz8aNs@OV1GPUW8BoHggsayMahfDFmpXCejKdgTADgLetXZgCTk5OyPAOGi09lJYXXhoNhdGeS@0gA6nBVwi6qdFybyyDbwQFFrLmCixuLDqk6JhnyhjcI3NwK31FGdrUUgcKB1PwBrIJcIuwllvUrwakYgTZeApzmLCLPTqLKDkb7vF5xNOD@6KFezSLKEtmh@jLNjs7n15dXB6MV21Ux/FyH3Twk6oYEAR9r5AEtpxQI6deCMzCwxhLgWsBFXfAIRsJuaamLRaNtVKvobgvFDK48VBwDSsEhxhGyX1U1qbNnkgLxT9IYg/T3HLVYBitgNc0tMkESmPhtpJFRVTiuKwQrIxeo/uHMaxRetftrdv0hlvPqFq4A3rRzWxgjTrsGnOLNRELtC6J6xu25wPw1VvkNWt0aZRIFtGZQpbCYrlModSwECnoFNQSRtfwa0FECUExhAeypdGdTV50ZrL0Q5a/AbUIO6FXJ0ybXDQbJQsS594kSjrfSQogfjxcw3u6VhInfybDnqkwjfZH20e0GhWbz5NH3kjaL0wD8XkcY65Qr32VUHhX@H/TCv5Dlf2shDWbnJamMDnt9zHO@io9/4HJ0faJBLFSWuef7OaRVGfUFg/SMsaynA6ml1bzu3x1n5z@3VQrI1BFupvPbNPQxRz/HSxyD3a7Pw)
+
 ```
-real    222m56.979s
-user    219m41.551s
-sys     3m10.639s
+Real time: 5.300 s
+User time: 5.184 s
+Sys. time: 0.121 s
+CPU share: 100.10 %
+Exit code: 0
 ```
