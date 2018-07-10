@@ -57,6 +57,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [043](src/043/) | Sub-string divisibility                                  | 5%         | 15.714 s           |
 | [044](src/044/) | Pentagon numbers                                         | 5%         | 1.798 s            |
 | [045](src/045/) | Triangular, pentagonal, and hexagonal                    | 5%         | 0.429 s            |
+| [046](src/046/) | Goldbach's other conjecture                              | 5%         | 0.484 s            |
 | [047](src/047/) | Distinct primes factors                                  | 5%         | 33.148 s           |
 | [048](src/048/) | Self powers                                              | 5%         | 0.532 s            |
 | [055](src/055/) | Lychrel numbers                                          | 5%         | 0.630 s            |
