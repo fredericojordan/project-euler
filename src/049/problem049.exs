@@ -15,33 +15,24 @@ defmodule Problem049 do
   defp prime?(2), do: true
   defp prime?(x) when is_integer(x) and x > 2, do: Enum.all?((2..round(:math.sqrt(x))), &(rem(x, &1) != 0))
 
-  def permutate([]), do: [[]]
-  def permutate(list) do
-    for x <- list,
-        y <- permutate(list -- [x]),
-        do:
-          [x|y]
-  end
+  defp generate_triplets(num), do: [num, num+3330, num+6660]
 
-  defp prime_permutations(num) do
-    permutate(Integer.digits(num))
-    |> Stream.map(&Integer.undigits/1)
-    |> Stream.filter(&(&1 > 999))
-    |> Stream.filter(&prime?/1)
-    |> Enum.to_list()
-    |> Enum.uniq()
-    |> Enum.sort()
-  end
+  defp are_permutations?([head|tail]), do: Enum.all?(tail, &(is_permutation?(&1, head)))
+
+  defp is_permutation?(a, b), do: Enum.sort(Integer.digits(a)) == Enum.sort(Integer.digits(b))
 
   def solve do
-    1_000..9_999
+    1_000..3_339
+    |> Stream.filter(&(&1 != 1487))
     |> Stream.filter(&prime?/1)
-    |> Stream.map(&prime_permutations/1)
-    |> Stream.filter(&(Enum.count(&1) > 2))
-    |> Enum.uniq()
+    |> Stream.map(&generate_triplets/1)
+    |> Stream.filter(&are_permutations?/1)
+    |> Stream.filter(fn x -> Enum.all?(x, &prime?/1) end)
     |> Enum.to_list()
-    |> IO.inspect()
-    |> Enum.count()
+    |> List.first()
+    |> Enum.map(&Integer.digits/1)
+    |> List.flatten()
+    |> Integer.undigits()
   end
 end
 
