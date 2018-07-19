@@ -61,6 +61,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [047](src/047/) | Distinct primes factors                                  | 5%         | 33.148 s           |
 | [048](src/048/) | Self powers                                              | 5%         | 0.532 s            |
 | [049](src/049/) | Prime permutations                                       | 5%         | 0.441 s            |
+| [050](src/050/) | Consecutive prime sum                                    | 5%         | 25.386 s           |
 | [055](src/055/) | Lychrel numbers                                          | 5%         | 0.630 s            |
 | [089](src/089/) | Roman numerals                                           | 20%        | 0.508 s            |
 | [097](src/097/) | Large non-Mersenne prime                                 | 5%         | 0.480 s            |
