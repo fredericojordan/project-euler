@@ -80,7 +80,7 @@ defmodule Problem144 do
 
     [new_slope, new_bias] = reflect_line(slope, 1.4, -9.6)
 
-    [point1, [x, y]] = [new_slope, new_bias] |> ellipse_intersection() |> IO.
+    [point1, [x, y]] = [new_slope, new_bias] |> ellipse_intersection() |> IO.inspect()
 
     reflect_line(new_slope, x, y) |> ellipse_intersection() |> IO.inspect()
   end
