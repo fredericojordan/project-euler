@@ -34,7 +34,6 @@ defmodule Problem144 do
   end
 
   defp slope_between_slopes(m1, m2), do: (m1-m2)/(1+m1*m2)
-#  defp angle_between_slopes(m1, m2), do: slope_between_slopes(m1, m2) |> :math.atan()
 
   @doc """
   - Sx + B = y
@@ -61,30 +60,44 @@ defmodule Problem144 do
     ]
   end
 
-  defp rotate_slope(slope, angle), do: (slope+angle)/(1-slope*angle)
+  defp rotate_slope(slope, angle), do: (slope+angle)/(1-slope*angle)  # angle is given by it's tangent (slope)
 
   defp reflect_line(slope, x, y) do
     reflected_slope =
       tangent_slope_at(x, y)
       |> perpendicular()
       |> slope_between_slopes(slope)
-      |> Kernel.*(2)
 
-    new_slope = rotate_slope(slope, reflected_slope)
+    new_slope = slope
+      |> rotate_slope(reflected_slope)
+      |> rotate_slope(reflected_slope)
 
     [new_slope, y - new_slope*x]
   end
 
+  defp reflect_laser([slope, x, y]), do: reflect_laser(slope, x, y)
+  defp reflect_laser(slope, x, y) do
+    [new_slope, new_bias] = reflect_line(slope, x, y)
+
+    [[x1, y1], [x2, y2]] = [new_slope, new_bias] |> ellipse_intersection()
+
+    if abs(x - x1) < 0.001 do
+      [new_slope, x2, y2]
+    else
+      [new_slope, x1, y1]
+    end
+  end
+
+  defp missing?([_, x, y]), do: x > -0.01 and x < 0.01 and y > 0
+  defp not_missing?(reflection), do: !missing?(reflection)
+
   def solve do
     [slope, _bias] = line_equation(0, 10.1, 1.4, -9.6)
 
-    [new_slope, new_bias] = reflect_line(slope, 1.4, -9.6)
-
-    [point1, [x, y]] = [new_slope, new_bias] |> ellipse_intersection() |> IO.inspect()
-
-    reflect_line(new_slope, x, y) |> ellipse_intersection() |> IO.inspect()
+    Stream.iterate([slope, 1.4, -9.6], &reflect_laser/1)
+    |> Enum.take_while(&not_missing?/1)
+    |> Enum.count()
   end
 end
 
-#IO.puts Problem144.solve
-Problem144.solve
+IO.puts Problem144.solve
