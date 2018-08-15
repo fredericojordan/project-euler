@@ -95,7 +95,7 @@ defmodule Problem144 do
     [slope, _bias] = line_equation(0, 10.1, 1.4, -9.6)
 
     Stream.iterate([slope, 1.4, -9.6], &reflect_laser/1)
-    |> Enum.take_while(&not_missing?/1)
+    |> Stream.take_while(&not_missing?/1)
     |> Enum.count()
   end
 end
