@@ -6,7 +6,7 @@ defmodule Problem052 do
   Find the smallest positive integer, x, such that 2x, 3x, 4x, 5x, and 6x, contain the same digits.
   """
 
-  def same_digits(num) do
+  defp same_digits(num) do
     [
       num,
       2*num,
@@ -25,7 +25,7 @@ defmodule Problem052 do
 
   def solve do
     Stream.iterate(1, &(&1+1))
-    |> Stream.drop_while(&(!same_digits(&1)))
+    |> Stream.filter(&same_digits/1)
     |> Stream.take(1)
     |> Enum.to_list()
     |> List.first()

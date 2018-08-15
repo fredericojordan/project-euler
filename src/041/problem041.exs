@@ -12,8 +12,8 @@ defmodule Problem041 do
     Enum.all?((2..round(:math.sqrt(x))), fn(n) -> rem(x, n) != 0 end)
   end
 
-  def permutate([]), do: [[]]
-  def permutate(list) do
+  defp permutate([]), do: [[]]
+  defp permutate(list) do
     for x <- list,
         y <- permutate(list -- [x]),
         do:

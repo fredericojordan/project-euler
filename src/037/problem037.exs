@@ -7,6 +7,7 @@ defmodule Problem037 do
 
   NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
   """
+
   defp is_prime(1), do: false
   defp is_prime(2), do: true
   defp is_prime(x) when x > 2 do

@@ -14,6 +14,7 @@ defmodule Problem046 do
 
   What is the smallest odd composite that cannot be written as the sum of a prime and twice a square?
   """
+
   defp prime?(1), do: false
   defp prime?(2), do: true
   defp prime?(x) when x > 2 do

@@ -1,5 +1,13 @@
 #!/usr/bin/env elixir
 defmodule Problem035 do
+  @moduledoc """
+  The number, 197, is called a circular prime because all rotations of the digits: 197, 971, and 719, are themselves prime.
+
+  There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97.
+
+  How many circular primes are there below one million?
+  """
+
   defp is_prime(1), do: false
   defp is_prime(2), do: true
   defp is_prime(x) when x > 2 do

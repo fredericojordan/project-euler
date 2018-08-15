@@ -27,14 +27,14 @@ defmodule Problem027 do
     Enum.all?((2..round(:math.sqrt(x))), fn(n) -> rem(x, n) != 0 end)
   end
 
-  def generate_coefficients() do
+  defp generate_coefficients() do
     for a <- -999..999,
         b <- -1000..1000 do
       [a, b]
     end
   end
 
-  def prime_generation_length([a, b]) do
+  defp prime_generation_length([a, b]) do
     Stream.iterate(0, &(&1+1))
     |> Stream.map(&(&1*&1 + &1*a + b))
     |> Stream.take_while(&is_prime/1)

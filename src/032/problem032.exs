@@ -10,15 +10,15 @@ defmodule Problem032 do
   HINT: Some products can be obtained in more than one way so be sure to only include it once in your sum.
   """
 
-  def permutate([]), do: [[]]
-  def permutate(list) do
+  defp permutate([]), do: [[]]
+  defp permutate(list) do
     for x <- list,
         y <- permutate(list -- [x]),
         do:
           [x|y]
   end
 
-  def generate_slices(list) do
+  defp generate_slices(list) do
     len = Enum.count(list)
     for x <- 1..len-2,
         y <- 1..len-1-x,

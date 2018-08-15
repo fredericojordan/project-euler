@@ -13,6 +13,7 @@ defmodule Problem038 do
 
   What is the largest 1 to 9 pandigital 9-digit number that can be formed as the concatenated product of an integer with (1,2, ... , n) where n > 1?
   """
+
   defp pandigital?(num) when is_integer(num), do: pandigital?(Integer.to_string(num, 10))
   defp pandigital?(num) do
     "123456789"

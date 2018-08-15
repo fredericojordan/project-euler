@@ -7,6 +7,7 @@ defmodule Problem034 do
 
   Note: as 1! = 1 and 2! = 2 are not sums they are not included.
   """
+
   defp factorial(0), do: 1
   defp factorial(1), do: 1
   defp factorial(x) when is_integer(x) and x > 0, do: x*factorial(x-1)

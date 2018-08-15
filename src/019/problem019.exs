@@ -15,12 +15,12 @@ defmodule Problem019 do
   How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
   """
 
-  def is_leap_year(year) when rem(year, 400) == 0, do: true
-  def is_leap_year(year) when rem(year, 100) == 0, do: false
-  def is_leap_year(year) when rem(year, 4) == 0, do: true
-  def is_leap_year(_), do: false
+  defp is_leap_year(year) when rem(year, 400) == 0, do: true
+  defp is_leap_year(year) when rem(year, 100) == 0, do: false
+  defp is_leap_year(year) when rem(year, 4) == 0, do: true
+  defp is_leap_year(_), do: false
 
-  def get_month_days(year) do
+  defp get_month_days(year) do
     if is_leap_year(year) do
       [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     else

@@ -29,7 +29,7 @@ defmodule Problem026 do
     |> Kernel.==(Enum.count(list))
   end
 
-  def get_cycle_length(num) do
+  defp get_cycle_length(num) do
     generate_remainders(num)
     |> Stream.drop_while(&no_duplicates?/1)
     |> Enum.take(1)

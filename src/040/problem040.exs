@@ -12,10 +12,10 @@ defmodule Problem040 do
   d[1] × d[10] × d[100] × d[1000] × d[10000] × d[100000] × d[1000000]
   """
 
-  def unfold_digits({m, []}), do: unfold_digits({m+1, Integer.digits(m)})
-  def unfold_digits({m, [head|tail]}), do: {head, {m, tail}}
+  defp unfold_digits({m, []}), do: unfold_digits({m+1, Integer.digits(m)})
+  defp unfold_digits({m, [head|tail]}), do: {head, {m, tail}}
 
-  def champernowne_at(x) do
+  defp champernowne_at(x) do
     Stream.unfold({1, []}, &unfold_digits/1)
     |> Stream.take(x)
     |> Enum.take(-1)

@@ -25,16 +25,16 @@ defmodule Problem012 do
   defp factorize(x, n, prime_factors), do: factorize(x, n+1, prime_factors)
   defp factorize(x) when is_integer(x) and x > 0, do: factorize(x, 2, [])
 
-  def triangle_numbers() do
+  defp triangle_numbers() do
     Stream.unfold([1, 0], fn [n, acc] -> {acc+n, [n+1, acc+n]} end)
   end
 
-  def count_occurences(list) do
+  defp count_occurences(list) do
     list
     |> Enum.reduce(%{}, fn x, acc -> Map.update(acc, x, 1, &(&1 + 1)) end)
   end
 
-  def count_divisors(n) do
+  defp count_divisors(n) do
     factorize(n)
     |> count_occurences()
     |> Map.values()

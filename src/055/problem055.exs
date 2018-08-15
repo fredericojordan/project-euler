@@ -19,6 +19,7 @@ defmodule Problem055 do
 
   NOTE: Wording was modified slightly on 24 April 2007 to emphasise the theoretical nature of Lychrel numbers.
   """
+
   defp reverse_number(x) do
     x
     |> Integer.to_string()
