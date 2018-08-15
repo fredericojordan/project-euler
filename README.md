@@ -63,6 +63,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [049](src/049/) | Prime permutations                                       | 5%         | 0.441 s            |
 | [050](src/050/) | Consecutive prime sum                                    | 5%         | 25.386 s           |
 | [052](src/052/) | Permuted multiples                                       | 5%         | 1.490 s            |
+| [053](src/053/) | Combinatoric selections                                  | 5%         | 0.670 s            |
 | [055](src/055/) | Lychrel numbers                                          | 5%         | 0.630 s            |
 | [089](src/089/) | Roman numerals                                           | 20%        | 0.508 s            |
 | [097](src/097/) | Large non-Mersenne prime                                 | 5%         | 0.480 s            |
