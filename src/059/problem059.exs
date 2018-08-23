@@ -18,7 +18,7 @@ defmodule Problem059 do
 
   defp read_encrypted_file() do
     {:ok, ascii_code_list} = File.read("p059_cipher.txt")
-    
+
     ascii_code_list
     |> String.trim("\n")
     |> String.split(",")
