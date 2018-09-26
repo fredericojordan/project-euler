@@ -88,3 +88,11 @@ Sys. time: 0.116 s
 CPU share: 113.20 %
 Exit code: 0
 ```
+
+### Shell
+
+```
+real    0m1.370s
+user    0m0.472s
+sys     0m0.879s
+```
