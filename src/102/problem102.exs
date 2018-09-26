@@ -22,12 +22,38 @@ defmodule Problem102 do
   end
 
   defp contains_origin(""), do: false
-  defp contains_origin(points) do
-    [_x1, _y1, _x2, _y2, _x3, _y3] =
-      points
+
+  defp contains_origin(coordinates) do
+    [m, n, o] =
+      coordinates
       |> String.split(",")
       |> Enum.map(&String.to_integer/1)
-#      |> Enum.chunk_every(2)
+      |> Enum.chunk_every(2)
+
+    intersections = y_intersections(m, n, o)
+
+    Enum.any?(intersections, &(&1 > 0)) and Enum.any?(intersections, &(&1 < 0))
+  end
+
+  defp y_intersections(m, n, o) do
+    [
+      y_intersection(m, n),
+      y_intersection(m, o),
+      y_intersection(n, o)
+    ]
+    |> Enum.reject(&is_nil/1)
+  end
+
+  defp y_intersection([x1,  _], [x2,  _]) when x1 > 0 and x2 > 0, do: nil
+  defp y_intersection([x1,  _], [x2,  _]) when x1 < 0 and x2 < 0, do: nil
+  defp y_intersection([x1,  _], [x2,  _]) when x1 == 0 and x2 == 0, do: raise "infinite intersections"
+  defp y_intersection([x1, y1], [ _,  _]) when x1 == 0, do: y1
+  defp y_intersection([ _,  _], [x2, y2]) when x2 == 0, do: y2
+  defp y_intersection([ _, y1], [ _, y2]) when y1 == y2, do: y1
+
+  defp y_intersection([x1, y1], [x2, y2]) do
+    a = (y2-y1)/(x2-x1)
+    y1 - a*x1
   end
 
   def solve do

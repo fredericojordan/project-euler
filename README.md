@@ -69,6 +69,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [059](src/059/) | XOR decryption                                           | 5%         | 4.338 s            |
 | [089](src/089/) | Roman numerals                                           | 20%        | 0.508 s            |
 | [097](src/097/) | Large non-Mersenne prime                                 | 5%         | 0.480 s            |
+| [102](src/102/) | Triangle containment                                     | 15%        | 0.373 s            |
 | [144](src/144/) | Investigating multiple reflections of a laser beam       | 50%        | 0.393 s            |
 | [145](src/145/) | How many reversible numbers are there below one-billion? | 20%        | 30 m 32.579 s      |
 | [206](src/206/) | Concealed Square                                         | 5%         | 3 m 17.635 s       |

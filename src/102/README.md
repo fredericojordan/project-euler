@@ -18,7 +18,8 @@ NOTE: The first two examples in the file represent the triangles in the example 
 
 ## Performance
 
-[Try it online!]()
-
 ```
+real    0m0.373s
+user    0m0.346s
+sys     0m0.152s
 ```
