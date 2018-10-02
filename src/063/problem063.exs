@@ -6,7 +6,25 @@ defmodule Problem063 do
   How many n-digit positive integers exist which are also an nth power?
   """
 
+  defp power_length(number, power) do
+    number
+    |> :math.pow(power)
+    |> trunc()
+    |> Integer.digits()
+    |> Enum.count()
+  end
+
+  defp same_power_len_bases(power) do
+    1..9
+    |> Stream.drop_while(&(power_length(&1, power) < power))
+    |> Enum.take_while(&(power_length(&1, power) == power))
+  end
+
   def solve do
+    1..100
+    |> Enum.map(&same_power_len_bases/1)
+    |> List.flatten()
+    |> Enum.count()
   end
 end
 
