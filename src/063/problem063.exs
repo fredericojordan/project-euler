@@ -16,8 +16,7 @@ defmodule Problem063 do
 
   defp same_power_len_bases(power) do
     1..9
-    |> Stream.drop_while(&(power_length(&1, power) < power))
-    |> Enum.take_while(&(power_length(&1, power) == power))
+    |> Enum.filter(&(power_length(&1, power) == power))
   end
 
   def solve do
