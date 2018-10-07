@@ -37,7 +37,8 @@ How many hands does Player 1 win?
 
 ## Performance
 
-[Try it online!]()
-
 ```
+real    0m0.593s
+user    0m0.567s
+sys     0m0.023s
 ```

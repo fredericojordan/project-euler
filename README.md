@@ -64,6 +64,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [050](src/050/) | Consecutive prime sum                                    | 5%         | 25.386 s           |
 | [052](src/052/) | Permuted multiples                                       | 5%         | 1.490 s            |
 | [053](src/053/) | Combinatoric selections                                  | 5%         | 0.670 s            |
+| [054](src/054/) | Poker hands                                              | 10%        | 0.593 s            |
 | [055](src/055/) | Lychrel numbers                                          | 5%         | 0.630 s            |
 | [056](src/056/) | Powerful digit sum                                       | 5%         | 0.749 s            |
 | [059](src/059/) | XOR decryption                                           | 5%         | 4.338 s            |
