@@ -67,6 +67,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [054](src/054/) | Poker hands                                              | 10%        | 0.593 s            |
 | [055](src/055/) | Lychrel numbers                                          | 5%         | 0.630 s            |
 | [056](src/056/) | Powerful digit sum                                       | 5%         | 0.749 s            |
+| [057](src/057/) | Square root convergents                                  | 5%         | 1.271 s            |
 | [058](src/058/) | Spiral primes                                            | 5%         | 14.554 s           |
 | [059](src/059/) | XOR decryption                                           | 5%         | 4.338 s            |
 | [063](src/063/) | Powerful digit counts                                    | 5%         | 0.570 s            |
