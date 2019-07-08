@@ -8,7 +8,7 @@ The specific white cell we will be considering is an ellipse with the equation 4
 
 The section corresponding to −0.01 ≤ x ≤ +0.01 at the top is missing, allowing the light to enter and exit through the hole.
 
-![](https://projecteuler.net/project/images/p144_1.gif) ![](https://projecteuler.net/project/images/p144_2.gif)
+![](https://projecteuler.net/project/images/p144_1.png) ![](https://projecteuler.net/project/images/p144_2.gif)
 
 The light beam in this problem starts at the point (0.0,10.1) just outside the white cell, and the beam first impacts the mirror at (1.4,-9.6).
 
