@@ -1,6 +1,6 @@
 #  🔮 project-euler
 
-![Level 2 Progress](https://progress-bar.dev/100/?title=Level%202)
+![Level 2 Progress](https://progress-bar.dev/100/?title=Level%202&color=babaca)
 
 ![Level 2](https://projecteuler.net/images/levels/level_2.png)
 
@@ -12,7 +12,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 
 ## 65 Solved Problems:
 
-![Level 3 Progress](https://progress-bar.dev/60/?title=Level%203) 
+![Level 3 Progress](https://progress-bar.dev/60/?title=Level%203&color=babaca) 
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
