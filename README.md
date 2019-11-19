@@ -1,9 +1,7 @@
 #  🔮 project-euler
 
-![Level 1 Progress](https://progress-bar.dev/100/?title=Level%201)
 ![Level 2 Progress](https://progress-bar.dev/100/?title=Level%202)
 
-![Level 1](https://projecteuler.net/images/levels/level_1.png)
 ![Level 2](https://projecteuler.net/images/levels/level_2.png)
 
 Tackling [Project Euler](https://projecteuler.net/)'s weekly problems, one by one.
@@ -15,8 +13,6 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 ## 65 Solved Problems:
 
 ![Level 3 Progress](https://progress-bar.dev/60/?title=Level%203) 
-
-![Level 3](https://projecteuler.net/images/levels/level_3.png)
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
