@@ -12,5 +12,5 @@ Given that F<sub>k</sub> is the first Fibonacci number for which the first nine 
 ## Performance
 
 ```
-
+      400.04 real       358.83 user         3.70 sys
 ```
