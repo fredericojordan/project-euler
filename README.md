@@ -10,9 +10,9 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 
 Add me to your [friend list](https://projecteuler.net/friends) with the following key: `1303129_5SgMVy96F4dFfIXvahxjTAPc4J70lbr1`
 
-## 65 Solved Problems:
+## 66 Solved Problems:
 
-![Level 3 Progress](https://progress-bar.dev/60/?title=Level%203&color=babaca) 
+![Level 3 Progress](https://progress-bar.dev/64/?title=Level%203&color=babaca)
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
@@ -74,6 +74,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [057](src/057/) | Square root convergents                                  | 5%         | 1.271 s            |
 | [058](src/058/) | Spiral primes                                            | 5%         | 14.554 s           |
 | [059](src/059/) | XOR decryption                                           | 5%         | 4.338 s            |
+| [062](src/062/) | Cubic permutations                                       | 15%        | 4.100 s            |
 | [063](src/063/) | Powerful digit counts                                    | 5%         | 0.570 s            |
 | [089](src/089/) | Roman numerals                                           | 20%        | 0.508 s            |
 | [097](src/097/) | Large non-Mersenne prime                                 | 5%         | 0.480 s            |

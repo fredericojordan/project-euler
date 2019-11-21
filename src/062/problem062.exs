@@ -1,52 +1,43 @@
 #!/usr/bin/env elixir
-defmodule Problem059 do
+defmodule Problem062 do
   @moduledoc """
-  The cube, 41063625 (345³), can be permuted to produce two other cubes: 56623104 (384³) and 66430125 (405³). In fact, 41063625 is the smallest cube which has exactly three permutations of its digits which are also cube.
+  The cube, 41063625 (345³), can be permuted to produce two other cubes: 56623104 (384³) and 66430125 (405³). In fact,
+  41063625 is the smallest cube which has exactly three permutations of its digits which are also cube.
 
   Find the smallest cube for which exactly five permutations of its digits are cube.
   """
 
-  defp is_cube?(number) do
-    root =
-      number
-      |> :math.pow(1/3)
-      |> round()
-
-    root*root*root == number
-  end
-
-  defp permutate(number) when is_integer(number) do
+  defp order_letters(number) do
     number
     |> Integer.digits()
-    |> permutate()
-    |> Enum.map(&Integer.undigits/1)
+    |> Enum.sort()
   end
 
-  defp permutate([]), do: [[]]
+  defp check_permutation_count(x, map) when x < 5, do: {:cont, map}
+  defp check_permutation_count(_x, map), do: {:halt, map}
 
-  defp permutate(list) do
-    for x <- list,
-        y <- permutate(list -- [x]),
-        do:
-          [x|y]
-  end
+  defp less_than_five_permutations(x, acc) do
+    key = order_letters(x)
+    new_map = Map.update(acc, key, [x], &(&1 ++ [x]))
 
-  defp cube_permutations(number) do
-    permutate(number)
-    |> Enum.uniq()
-    |> Enum.filter(&is_cube?/1)
-    |> Enum.to_list()
+    max_permutation_count =
+      new_map
+      |> Map.values()
+      |> Enum.map(&Enum.count/1)
+      |> Enum.max()
+
+    check_permutation_count(max_permutation_count, new_map)
   end
 
   def solve do
-    Stream.iterate(344, &(&1+1))
+    Stream.iterate(215, &(&1+1))
     |> Stream.map(&(&1*&1*&1))
-    |> Stream.map(&cube_permutations/1)
-    |> Stream.filter(&(Enum.count(&1) == 5))
-    |> Enum.take(1)
+    |> Enum.reduce_while(%{}, &less_than_five_permutations/2)
+    |> Enum.max_by(fn x -> Enum.count(elem(x, 1)) end)
+    |> elem(1)
+    |> Enum.sort()
     |> List.first()
-    |> Enum.min()
   end
 end
 
-IO.puts Problem059.solve
+IO.puts Problem062.solve
