@@ -84,3 +84,10 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [144](src/144/) | Investigating multiple reflections of a laser beam       | 50%        | 0.393 s            |
 | [145](src/145/) | How many reversible numbers are there below one-billion? | 20%        | 30 m 32.579 s      |
 | [206](src/206/) | Concealed Square                                         | 5%         | 3 m 17.635 s       |
+
+## Awards
+[![Baby Steps](https://projecteuler.net/images/awards/award_01.png)](https://projecteuler.net/award=1)
+[![The Journey Begins](https://projecteuler.net/images/awards/award_02.png)](https://projecteuler.net/award=2)
+[![Decathlete](https://projecteuler.net/images/awards/award_03.png)](https://projecteuler.net/award=3)
+[![Flawless Fifty](https://projecteuler.net/images/awards/award_04.png)](https://projecteuler.net/award=4)
+[![Easy Prey](https://projecteuler.net/images/awards/award_51.png)](https://projecteuler.net/award=51)
