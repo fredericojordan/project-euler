@@ -10,9 +10,9 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 
 Add me to your [friend list](https://projecteuler.net/friends) with the following key: `1303129_5SgMVy96F4dFfIXvahxjTAPc4J70lbr1`
 
-## 68 Solved Problems:
+## 69 Solved Problems:
 
-![Level 3 Progress](https://progress-bar.dev/72/?title=Level%203&color=babaca)
+![Level 3 Progress](https://progress-bar.dev/76/?title=Level%203&color=babaca)
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
@@ -81,6 +81,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [097](src/097/) | Large non-Mersenne prime                                 | 5%         | 0.480 s            |
 | [102](src/102/) | Triangle containment                                     | 15%        | 0.373 s            |
 | [104](src/104/) | Pandigital Fibonacci ends                                | 25%        | 6 m 40.04 s        |
+| [112](src/112/) | Bouncy numbers                                           | 15%        | 11.936 s           |
 | [144](src/144/) | Investigating multiple reflections of a laser beam       | 50%        | 0.393 s            |
 | [145](src/145/) | How many reversible numbers are there below one-billion? | 20%        | 30 m 32.579 s      |
 | [206](src/206/) | Concealed Square                                         | 5%         | 3 m 17.635 s       |
