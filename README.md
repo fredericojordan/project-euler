@@ -1,8 +1,8 @@
 #  🔮 project-euler
 
-![Level 2 Progress](https://progress-bar.dev/100/?title=Level%202&color=babaca)
+[![Level 2 Progress](https://progress-bar.dev/100/?title=Level%202&color=babaca)](https://projecteuler.net/progress=fredericojordan)
 
-![Level 2](https://projecteuler.net/images/levels/level_2.png)
+[![Level 2](https://projecteuler.net/images/levels/level_2.png)](https://projecteuler.net/progress=fredericojordan)
 
 Tackling [Project Euler](https://projecteuler.net/)'s weekly problems, one by one.
 
@@ -12,7 +12,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 
 ## 69 Solved Problems:
 
-![Level 3 Progress](https://progress-bar.dev/76/?title=Level%203&color=babaca)
+[![Level 3 Progress](https://progress-bar.dev/76/?title=Level%203&color=babaca)](https://projecteuler.net/progress=fredericojordan)
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
