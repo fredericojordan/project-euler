@@ -1,8 +1,6 @@
 #  🔮 project-euler
 
-[![Level 2 Progress](https://progress-bar.dev/100/?title=Level%202&color=babaca)](https://projecteuler.net/progress=fredericojordan)
-
-[![Level 2](https://projecteuler.net/images/levels/level_2.png)](https://projecteuler.net/progress=fredericojordan)
+[![fredericojordan's progress](https://projecteuler.net/profile/fredericojordan.png)](https://projecteuler.net/progress=fredericojordan)
 
 Tackling [Project Euler](https://projecteuler.net/)'s weekly problems, one by one.
 
