@@ -8,9 +8,9 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 
 Add me to your [friend list](https://projecteuler.net/friends) with the following key: `1303129_5SgMVy96F4dFfIXvahxjTAPc4J70lbr1`
 
-## 69 Solved Problems:
+## 70 Solved Problems:
 
-[![Level 3 Progress](https://progress-bar.dev/76/?title=Level%203&color=babaca)](https://projecteuler.net/progress=fredericojordan)
+[![Level 3 Progress](https://progress-bar.dev/78/?title=Level%203&color=babaca)](https://projecteuler.net/progress=fredericojordan)
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
@@ -76,6 +76,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [063](src/063/) | Powerful digit counts                                    | 5%         | 0.570 s            |
 | [074](src/074/) | Digit factorial chains                                   | 15%        | 56.409 s           |
 | [089](src/089/) | Roman numerals                                           | 20%        | 0.508 s            |
+| [092](src/092/) | Square digit chains                                      | 5%         | 25.55 s            |
 | [097](src/097/) | Large non-Mersenne prime                                 | 5%         | 0.480 s            |
 | [102](src/102/) | Triangle containment                                     | 15%        | 0.373 s            |
 | [104](src/104/) | Pandigital Fibonacci ends                                | 25%        | 6 m 40.04 s        |
