@@ -10,7 +10,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 
 ## 70 Solved Problems:
 
-[![Level 3 Progress](https://progress-bar.dev/78/?title=Level%203&color=babaca)](https://projecteuler.net/progress=fredericojordan)
+[![Level 3 Progress](https://progress-bar.dev/80/?title=Level%203&color=babaca)](https://projecteuler.net/progress=fredericojordan)
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
