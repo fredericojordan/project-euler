@@ -8,9 +8,9 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 
 Add me to your [friend list](https://projecteuler.net/friends) with the following key: `1303129_5SgMVy96F4dFfIXvahxjTAPc4J70lbr1`
 
-## 70 Solved Problems:
+## 71 Solved Problems:
 
-[![Level 3 Progress](https://progress-bar.dev/80/?title=Level%203&color=babaca)](https://projecteuler.net/progress=fredericojordan)
+[![Level 3 Progress](https://progress-bar.dev/84/?title=Level%203&color=babaca)](https://projecteuler.net/progress=fredericojordan)
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
@@ -84,6 +84,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [144](src/144/) | Investigating multiple reflections of a laser beam       | 50%        | 0.393 s            |
 | [145](src/145/) | How many reversible numbers are there below one-billion? | 20%        | 30 m 32.579 s      |
 | [206](src/206/) | Concealed Square                                         | 5%         | 3 m 17.635 s       |
+| [686](src/686/) | Powers of Two                                            | 5%         | 207.87 s           |
 
 ## Awards
 [![Baby Steps](https://projecteuler.net/images/awards/award_01.png)](https://projecteuler.net/award=1)
