@@ -90,4 +90,3 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 [![The Journey Begins](https://projecteuler.net/images/awards/award_02.png)](https://projecteuler.net/award=2)
 [![Decathlete](https://projecteuler.net/images/awards/award_03.png)](https://projecteuler.net/award=3)
 [![Flawless Fifty](https://projecteuler.net/images/awards/award_04.png)](https://projecteuler.net/award=4)
-[![Easy Prey](https://projecteuler.net/images/awards/award_51.png)](https://projecteuler.net/award=51)
