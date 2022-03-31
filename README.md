@@ -8,9 +8,9 @@ Also used as a playground for learning [Elixir](https://elixir-lang.org/) (and m
 
 Add me to your [friend list](https://projecteuler.net/friends) with the following key: `1303129_5SgMVy96F4dFfIXvahxjTAPc4J70lbr1`
 
-## 71 Solved Problems:
+## 72 Solved Problems:
 
-[![Level 3 Progress](https://progress-bar.dev/84/?title=Level%203&color=babaca)](https://projecteuler.net/progress=fredericojordan)
+[![Level 3 Progress](https://progress-bar.dev/88/?title=Level%203&color=babaca)](https://projecteuler.net/progress=fredericojordan)
 
 |       ID        |                  Description / Title                     | Difficulty | Computational time |
 | --------------- | -------------------------------------------------------- | ---------- | ------------------ |
@@ -36,7 +36,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [020](src/020/) | Factorial digit sum                                      | 5%         | 0.393 s            |
 | [021](src/021/) | Amicable numbers                                         | 5%         | 2.855 s            |
 | [022](src/022/) | Names scores                                             | 5%         | 0.391 s            |
-| [023](src/023/) | Non-abundant sums                                        | 5%         | 2 m 51.632 s       |
+| [023](src/023/) | Non-abundant sums                                        | 5%         | 2 min 51.632 s     |
 | [024](src/024/) | Lexicographic permutations                               | 5%         | 0.498 s            |
 | [025](src/025/) | 1000-digit Fibonacci number                              | 5%         | 4.450 s            |
 | [026](src/026/) | Reciprocal cycles                                        | 5%         | 5.300 s            |
@@ -44,7 +44,7 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [028](src/028/) | Number spiral diagonals                                  | 5%         | 0.375 s            |
 | [029](src/029/) | Distinct powers                                          | 5%         | 0.394 s            |
 | [030](src/030/) | Digit fifth powers                                       | 5%         | 0.758 s            |
-| [031](src/031/) | Coin sums                                                | 5%         | 10 m 23.920 s      |
+| [031](src/031/) | Coin sums                                                | 5%         | 10 min 23.920 s    |
 | [032](src/032/) | Pandigital products                                      | 5%         | 21.188 s           |
 | [033](src/033/) | Digit cancelling fractions                               | 5%         | 0.776 s            |
 | [034](src/034/) | Digit factorials                                         | 5%         | 0.466 s            |
@@ -79,12 +79,13 @@ Add me to your [friend list](https://projecteuler.net/friends) with the followin
 | [092](src/092/) | Square digit chains                                      | 5%         | 25.55 s            |
 | [097](src/097/) | Large non-Mersenne prime                                 | 5%         | 0.480 s            |
 | [102](src/102/) | Triangle containment                                     | 15%        | 0.373 s            |
-| [104](src/104/) | Pandigital Fibonacci ends                                | 25%        | 6 m 40.04 s        |
+| [104](src/104/) | Pandigital Fibonacci ends                                | 25%        | 6 min 40.04 s      |
 | [112](src/112/) | Bouncy numbers                                           | 15%        | 11.936 s           |
 | [144](src/144/) | Investigating multiple reflections of a laser beam       | 50%        | 0.393 s            |
-| [145](src/145/) | How many reversible numbers are there below one-billion? | 20%        | 30 m 32.579 s      |
-| [206](src/206/) | Concealed Square                                         | 5%         | 3 m 17.635 s       |
+| [145](src/145/) | How many reversible numbers are there below one-billion? | 20%        | 30 min 32.579 s    |
+| [206](src/206/) | Concealed Square                                         | 5%         | 3 min 17.635 s     |
 | [686](src/686/) | Powers of Two                                            | 5%         | 207.87 s           |
+| [719](src/719/) | Number Splitting                                         | 5%         | 201.44 min         |
 
 ## Awards
 [![Baby Steps](https://projecteuler.net/images/awards/award_01.png)](https://projecteuler.net/award=1)
